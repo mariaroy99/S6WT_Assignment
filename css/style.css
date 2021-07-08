@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+html {
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+
+h2 {
+    color: rgb(45, 28, 121);
+   
+}
+
+.profile-div {
+    
+    text-align: center;
+    font-size: 16px;
+    
+  }
+.profile-image{
+   
+    object-fit: cover;
+    object-position:50% 100%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-details{
+   
+   
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-details li{
+    padding: 5px;
+}
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    border-bottom: 1px solid black;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.navbar ul li .active {
+    color: white;
+    background-color :rgb(45, 28, 121); 
+    padding: 10px;
+}
+
+table {
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 5px;;
+    font-size: 16px;
+    border: 2px solid rgb(45, 28, 121);
+    
+}
+
+table, th, td {
+    border: 2px solid rgb(45, 28, 121);
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+
+td{
+    text-align: center;
+}
+
+#tab1{
+    float: left;
+    margin-left: 20%;
+}
+
+
+#tab2{
+    float: right;
+    margin-right: 20%;
+}
+.contact {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.contact h2 {
+    margin: 0;
+    font-size: 40px;margin-bottom: 20px;
+    
+}
+
+
+.contact .form {
+    width: 500px;
+    height: 400px;
+    margin: auto; 
+}
+
+
+.contact .form input[type=text] ,textarea {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border:0;
+    margin-bottom: 10px;
+    border: 1px solid rgb(45, 28, 121);
+    border-radius: 20px;
+    padding-left: 10px
+}
+
+textarea {
+    height: 200px;
+}
+
+.contact .form input[type=submit] {
+    float:none;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(45, 28, 121);
+    color: white;
+    padding: 10px;
+    cursor: pointer
+}
+
+.sections{
+    
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#contactme{
+    background-color: rgb(45, 28, 121);
+    color: white;
+   
+}
